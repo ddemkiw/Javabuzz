@@ -1,9 +1,9 @@
 describe('Javabuzz',function() {
   var javabuzz;
 
-beforeEach(function() {
-    javabuzz = new Javabuzz();
-  });
+// beforeEach(function() {
+//     javabuzz = new Javabuzz();
+//   });
 
   describe('knows when a number is',function(){
 
@@ -18,7 +18,6 @@ beforeEach(function() {
       expect(javabuzz.isDivisibleByThree(1)).toBe(false);
     });
   });
-
   describe('knows when a number is', function(){
     
     it('divisible by 5', function(){
@@ -65,7 +64,7 @@ beforeEach(function() {
       expect(javabuzz.says(2)).toEqual(2)
     });
   });
-});
+})
 
 
 
